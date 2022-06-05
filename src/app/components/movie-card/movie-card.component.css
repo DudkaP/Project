@@ -1,0 +1,15 @@
+.movieCardPoster {
+  display: flex;
+}
+
+.poster500 {
+  margin: 30px;
+}
+
+.linkBack {
+  cursor: pointer;
+}
+
+.poster500Txt {
+  margin: 30px;
+}

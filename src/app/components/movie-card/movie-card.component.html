@@ -1,0 +1,16 @@
+<div class="movieCardPoster">
+  <div class="poster500">
+    <a (click)="back()" class="linkBack">
+      << back <<
+    </a> <br/>
+    <img src="{{poster500}}{{movieCard.poster_path}}" alt="{{movieCard.title}}">
+  </div>
+  <div class="poster500Txt">
+    <h2>{{movieCard.title}}</h2>
+    <h3>Rating: {{movieCard.vote_average}}</h3>
+    {{movieCard.overview}}
+    <br/>
+    <a [routerLink]="['description', movieCard.id]" [state]="{data: movieCard}">Description...</a>
+    <router-outlet></router-outlet>
+  </div>
+</div>

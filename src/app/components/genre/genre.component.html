@@ -1,0 +1,6 @@
+<div>
+  <a [routerLink]="['genre-movies', genre.id]" [state]="{data:genre}" routerLinkActive="active" *ngIf="user.age">
+    {{genre.name}}
+  </a>
+</div>
+

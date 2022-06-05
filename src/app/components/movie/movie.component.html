@@ -1,0 +1,8 @@
+<div class="blocksFlexOne">
+  <div>
+    <a [routerLink]="['', movie.id]" [state]="{data:movie}">
+      <img src="{{getPoster200}}{{movie.poster_path}}" alt="{{movie.title}}">
+    </a>
+  </div>
+  <div>{{movie.title}}</div>
+</div>

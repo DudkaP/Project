@@ -1,0 +1,19 @@
+<h2 *ngIf="!user.age" class="topBlocksFlex">Login page</h2>
+<h2 *ngIf="user.age" class="topBlocksFlex">Welcome {{user.name}}</h2>
+<form [formGroup]="form" *ngIf="!user.age" class="userForm">
+  <div>Your name: <input type="text" formControlName="name"></div>
+  <br/>
+  <div>Your age: <input type="number" formControlName="age"></div>
+  <br/>
+  <div>
+    <button (click)="saveToStorage()">LogIn</button>
+  </div>
+</form>
+
+<div class="userForm">
+  <div *ngIf="user.age">Your personal information:</div>
+  <div *ngIf="user.age">Name: {{user.name}}</div>
+  <div *ngIf="user.age">Age: {{user.age}}</div>
+  <br/>
+  <a *ngIf="user.age" routerLink="/movies">Go to watch movies...</a>
+</div>

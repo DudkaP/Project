@@ -1,0 +1,22 @@
+.mainFlex {
+  display: flex;
+
+}
+.mainGenres {
+  height: 100%;
+  width: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 5px;
+  background-color: #0e1161;
+  border-radius: 10px;
+  color: antiquewhite;
+}
+.mainRouter {
+  width: 100%;
+}

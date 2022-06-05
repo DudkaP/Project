@@ -1,0 +1,11 @@
+.blocksFlexOne {
+  margin: 10px;
+  width: 220px;
+  height: 360px;
+  border-radius: 10px;
+  border: #0e1161 solid 1px;
+  padding: 5px;
+  background-color: snow;
+  text-align: center;
+}
+

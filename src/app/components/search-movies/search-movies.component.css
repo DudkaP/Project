@@ -1,0 +1,29 @@
+.blocksFlex {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topBlocksFlex {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.moviesPage {
+  text-align: center;
+}
+
+.totalPages {
+  text-align: end;
+  margin-right: 20px;
+}
+
+.navigate {
+  cursor: pointer;
+}
+
+.page {
+  font-weight: bold;
+}

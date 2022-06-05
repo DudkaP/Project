@@ -1,0 +1,10 @@
+.userForm {
+  text-align: center;
+}
+
+.topBlocksFlex {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
